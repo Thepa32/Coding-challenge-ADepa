@@ -1,0 +1,56 @@
+body{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.fronte{
+  color: lime;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo{
+  width: 250px;
+}
+
+.titolo{
+  font-size: 40px
+}
+
+.naviga{
+  background-color: lime;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+/* stati batterie monopattini */
+#medium{
+      width: 300px;
+      height: 20px;
+      background: orange;
+      border-radius: 5px;
+}
+#high{
+      width: 500px;
+      height: 20px;
+      background: green;
+      border-radius: 5px;
+}
+#low{
+      width: 100px;
+      height: 20px;
+      background: red;
+      border-radius: 5px;
+}
+
+/* main stato monopattini */
+.container{
+  margin-left: 90px;
+  font-family: sans-serif;
+  color: white
+}
